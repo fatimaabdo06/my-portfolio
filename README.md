@@ -20,16 +20,6 @@ This portfolio was designed and developed to present my work, technical backgrou
 - CSS3
 - GitHub Pages
 
-## Screenshots
-### Home Page
-![Home Page](screenshots/home.png)
-
-### About Section
-![About Section](screenshots/about.png)
-
-### Projects Section
-![Projects Section](screenshots/projects.png)
-
 ## Author
 **Fatima Abdo**
 
