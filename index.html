@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fatima Abdo | CS Student Portfolio - Web programming, photography, design, video editing." />
+  <title>Fatima Abdo | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Background decoration -->
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb--1"></span>
+    <span class="orb orb--2"></span>
+    <span class="orb orb--3"></span>
+  </div>
+
+  <!-- HEADER (nav under name) -->
+  <header class="site-header">
+    <div class="container header-inner header-vertical">
+      <div class="brand brand-center">
+        <div class="brand-mark" aria-hidden="true">
+          <span>FA</span>
+        </div>
+        <div class="brand-text">
+          <p class="brand-top">Portfolio</p>
+          <p class="brand-name">Fatima Abdo</p>
+        </div>
+      </div>
+
+      <nav class="nav nav-under-name" aria-label="Primary">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="badge">
+          <span class="dot"></span>
+          CS Student • Creative & Tech
+        </p>
+
+        <h1 class="hero-title">
+          Hi, I’m <span class="grad-text">Fatima Abdo</span> —
+          I build clean web experiences and create visual content.
+        </h1>
+
+        <p class="hero-subtitle">
+          I’m 19 years old and I love learning, improving myself, and turning ideas into
+          well-designed, user-friendly projects.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <p class="stat-num">19</p>
+            <p class="stat-label">Years Old</p>
+          </div>
+          <div class="stat">
+            <p class="stat-num">CS</p>
+            <p class="stat-label">Student</p>
+          </div>
+          <div class="stat">
+            <p class="stat-num">4+</p>
+            <p class="stat-label">Core Skills</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="profile-card">
+          <div class="profile-top">
+            <div class="profile-photo">
+              <!-- change extension if needed: prof.png -->
+              <img src="images/prof.jpg" alt="Fatima Abdo portrait" onerror="this.style.display='none'" />
+              <div class="photo-fallback" aria-hidden="true">
+                <span>FA</span>
+              </div>
+            </div>
+
+            <div class="profile-meta">
+              <p class="profile-name">Fatima Abdo</p>
+              <p class="profile-role">CS Student</p>
+              <div class="profile-tags">
+                <span class="tag tag--a">Web</span>
+                <span class="tag tag--b">Design</span>
+                <span class="tag tag--c">Photo</span>
+                <span class="tag tag--d">Video</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-bottom">
+            <div class="mini-card">
+              <p class="mini-title">Focus</p>
+              <p class="mini-text">Modern UI + clean structure</p>
+            </div>
+            <div class="mini-card">
+              <p class="mini-title">Strength</p>
+              <p class="mini-text">Creative thinking & consistency</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-head">
+        <h2 class="section-title">About</h2>
+        <p class="section-desc">A short introduction, written clearly and professionally.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card card-soft">
+          <h3 class="card-title">Who I am</h3>
+          <p class="card-text">
+            My name is Fatima Abdo. I’m a Computer Science student and I’m passionate about learning and
+            developing myself. I enjoy building neat web pages and also creating visual work through photography,
+            design, and video editing.
+          </p>
+
+          <div class="highlight-list">
+            <div class="hl">
+              <span class="hl-ic">✨</span>
+              <span>Organized, fast learner, and detail-oriented</span>
+            </div>
+            <div class="hl">
+              <span class="hl-ic">🎯</span>
+              <span>Always improving my skills and quality</span>
+            </div>
+            <div class="hl">
+              <span class="hl-ic">🧩</span>
+              <span>Balance between technical and creative work</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-border">
+          <h3 class="card-title">What I do</h3>
+          <div class="pill-grid">
+            <span class="pill pill--1">Web Programming</span>
+            <span class="pill pill--2">Photography</span>
+            <span class="pill pill--3">Graphic Design</span>
+            <span class="pill pill--4">Video Editing</span>
+          </div>
+
+          <div class="timeline">
+            <div class="tl-item">
+              <span class="tl-dot tl-dot--1"></span>
+              <div>
+                <p class="tl-title">Build</p>
+                <p class="tl-text">Structured, responsive pages using HTML & CSS.</p>
+              </div>
+            </div>
+            <div class="tl-item">
+              <span class="tl-dot tl-dot--2"></span>
+              <div>
+                <p class="tl-title">Design</p>
+                <p class="tl-text">Clean visuals: spacing, colors, and modern UI layout.</p>
+              </div>
+            </div>
+            <div class="tl-item">
+              <span class="tl-dot tl-dot--3"></span>
+              <div>
+                <p class="tl-title">Create</p>
+                <p class="tl-text">Photo & video content with polished editing.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="note">
+            <span class="note-ic">💡</span>
+            <span>Tip: Replace the photo file in <b>images/</b> to show your portrait.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-head">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-desc">Clear, modern cards — looks professional and advanced.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-top">
+            <span class="skill-ic skill-ic--1">🌐</span>
+            <h3 class="skill-title">Web Programming</h3>
+          </div>
+          <p class="skill-text">
+            Building structured pages with semantic HTML and modern CSS layouts (Flexbox/Grid).
+          </p>
+          <div class="meter">
+            <span style="width: 82%"></span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-top">
+            <span class="skill-ic skill-ic--2">📷</span>
+            <h3 class="skill-title">Photography</h3>
+          </div>
+          <p class="skill-text">
+            Capturing shots with attention to light, composition, and storytelling.
+          </p>
+          <div class="meter">
+            <span style="width: 76%"></span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-top">
+            <span class="skill-ic skill-ic--3">🎨</span>
+            <h3 class="skill-title">Design</h3>
+          </div>
+          <p class="skill-text">
+            Clean, consistent visuals: colors, spacing, typography, and layout.
+          </p>
+          <div class="meter">
+            <span style="width: 70%"></span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-top">
+            <span class="skill-ic skill-ic--4">🎬</span>
+            <h3 class="skill-title">Video Editing</h3>
+          </div>
+          <p class="skill-text">
+            Editing short content with smooth flow, cuts, and simple effects.
+          </p>
+          <div class="meter">
+            <span style="width: 68%"></span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-desc">Featured project card + professional layout.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project project-featured">
+          <div class="project-head">
+            <div>
+              <p class="project-kicker">Featured</p>
+              <h3 class="project-title">Analysis of Video Games</h3>
+              <p class="project-sub">
+                A SQL-based data analytics project exploring video game sales and user/critic reviews.
+              </p>
+            </div>
+            <div class="project-badges">
+              <span class="pbadge pbadge--1">SQL</span>
+              <span class="pbadge pbadge--2">Analytics</span>
+              <span class="pbadge pbadge--3">Power BI</span>
+            </div>
+          </div>
+
+          <div class="project-body">
+            <ul class="proj-list">
+              <li>Database creation + tables + importing prepared data</li>
+              <li>Queries (JOIN, GROUP BY, CTEs, subqueries, aggregates)</li>
+              <li>Reporting phase with Power BI visuals and insights</li>
+            </ul>
+
+            <div class="project-actions">
+              <a class="btn btn-primary"
+                 href="https://github.com/mennamamdouh/Analysis-of-Video-Games"
+                 target="_blank" rel="noreferrer">
+                View Repository
+              </a>
+              <a class="btn btn-ghost"
+                 href="https://github.com/fatimaabdo06"
+                 target="_blank" rel="noreferrer">
+                My GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <div>
+              <p class="project-kicker">UI Concept</p>
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-sub">
+                This website is built as a clean, responsive portfolio with modern styling.
+              </p>
+            </div>
+            <div class="project-badges">
+              <span class="pbadge pbadge--1">HTML</span>
+              <span class="pbadge pbadge--2">CSS</span>
+              <span class="pbadge pbadge--3">Responsive</span>
+            </div>
+          </div>
+
+          <div class="project-body">
+            <ul class="proj-list">
+              <li>Sticky header + smooth layout sections</li>
+              <li>Grid cards + clean spacing + hover effects</li>
+              <li>Accessible focus states and typography</li>
+            </ul>
+
+            <div class="project-actions">
+              <a class="btn btn-primary" href="#about">About</a>
+              <a class="btn btn-ghost" href="#contact">Contact</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-desc">Simple, clean, and professional contact area.</p>
+      </div>
+
+      <div class="contact-wrap">
+        <div class="card card-soft">
+          <h3 class="card-title">Let’s connect</h3>
+          <p class="card-text">
+            If you’d like to collaborate, ask a question, or discuss a project — feel free to reach out.
+          </p>
+
+          <div class="contact-list">
+            <a class="contact-item" href="mailto:fatimaabdo256@gmail.com">
+              <span class="c-ic">✉️</span>
+              <span class="c-label">Email</span>
+              <span class="c-val">fatimaabdo256@gmail.com</span>
+            </a>
+
+            <a class="contact-item" href="https://github.com/fatimaabdo06" target="_blank" rel="noreferrer">
+              <span class="c-ic">🐙</span>
+              <span class="c-label">GitHub</span>
+              <span class="c-val">fatimaabdo06</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card card-border">
+          <h3 class="card-title">Quick message</h3>
+          <form class="form" action="#" method="post">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" />
+            </div>
+
+            <div class="form-row">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" placeholder="Message subject" />
+            </div>
+
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Write your message..."></textarea>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Send</button>
+            <p class="form-note">*Form is for layout only (no backend).</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <p>© 2026 Fatima Abdo — Built with HTML & CSS.</p>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
